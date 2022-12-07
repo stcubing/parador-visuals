@@ -210,10 +210,19 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 70vw;
-    overflow-y: hidden;
     margin-top: 15vh;
     height: 100vh;
 
+}
+.photogrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.photogrid img {
+    width: 20vw;
 }
 
 
