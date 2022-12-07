@@ -4,6 +4,7 @@
     
 
     float: center;
+    overflow-x: hidden;
 }
 
 
@@ -42,11 +43,20 @@ p {
 
 
 .title {
+    display: flex;
+    padding-top: 40vh;
+    flex-direction: column;
+    padding-left: 15vw;
+    background-image: url('assets/hotel.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    width: 70vw;
-    height: 60vh;
-    margin-top: 40vh;
+    transform: translateY(-14%);
+
+    /* width: 70vw; */
+    height: 73vh;
+    /* margin-top: 40vh; */
 }
 @media only screen and (max-width: 500px) {
     h1 {
@@ -82,7 +92,7 @@ p {
     margin-right: auto;
     width: 70vw;
 
-    margin-top: 20vh;
+    margin-top: 0vh;
     margin-bottom: 10vh;
     height: max-content;
     display: flex;
@@ -200,6 +210,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 70vw;
+    overflow-y: hidden;
     margin-top: 15vh;
     height: 100vh;
 
